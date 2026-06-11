@@ -1,11 +1,11 @@
 // Step 2: Employee Base Class
 class Employee {
-    constructor (name, department) {
+    constructor(name, department) {
         this.name = name; 
         this.department = department; 
         }
         describe() {
-            return `$ {this.name} works in the ${this.department} department.`;
+            return `${this.name} works in the ${this.department} department.`;
 
         }
 }
@@ -13,7 +13,7 @@ class Employee {
 //Step 3: Manager Subclass
 class Manager extends Employee {
     constructor(name, department, teamSize) {
-     super (name, department); 
+     super(name, department); 
      this.teamSize = teamSize;
     }
 
@@ -23,8 +23,8 @@ class Manager extends Employee {
 }
 
 //Step 4: Create sample employees and managers
-const emp1 = new Employee ("Andrea Smith", "Marketing");
-const emp2 = new Employee ("Steven Geller", "Finance");
+const emp1 = new Employee("Andrea Smith", "Marketing");
+const emp2 = new Employee("Steven Geller", "Finance");
 const mgr1 = new Manager("Aitana Andrade", "Technology", 8);
 const mgr2 = new Manager("Carlos Perez", "Operations", 5);
 
@@ -33,8 +33,8 @@ class Company {
     constructor () {
         this.employees =[];
         }
-        addEmployee (employee) {
-            this.employee.push (employee);
+        addEmployee(employee) {
+            this.employees.push (employee);
             }
         listEmployees () {
             this.employees.forEach (employee => {
