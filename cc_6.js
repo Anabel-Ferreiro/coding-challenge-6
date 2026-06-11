@@ -21,3 +21,9 @@ class Manager extends Employee {
         return `${this.name} is a Manager in the ${this.department} department and leads a team of ${this.teamSize} people.`;
     }
 }
+
+//Step 4: Create sample employees and managers
+const emp1 = new Employee ("Andrea Smith", "Marketing");
+const emp2 = new Employee ("Steven Geller", "Finance");
+const mgr1 = new Manager("Aitana Andrade", "Technology", 8);
+const mgr2 = new Manager("Carlos Perez", "Operations", 5);
