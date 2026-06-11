@@ -9,4 +9,5 @@ An object-oriented employee management system built with JavaScript classes, dem
 2. Right click → Inspect → Console tab
 3. View employee list in console
 
-Author: Anabel Ferreiro Perez
+## Author
+Anabel Ferreiro Perez
