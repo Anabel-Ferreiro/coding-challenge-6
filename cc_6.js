@@ -42,3 +42,12 @@ class Company {
             });
         }
 }
+
+//Step 6: Instantiate Company and add employees
+const company = new Company();
+company.addEmployee (emp1);
+company.addEmployee (emp2);
+company.addEmployee (mgr1);
+company.addEmployee (mgr2);
+
+company.listEmployees ();
