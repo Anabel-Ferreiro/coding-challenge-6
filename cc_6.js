@@ -27,3 +27,18 @@ const emp1 = new Employee ("Andrea Smith", "Marketing");
 const emp2 = new Employee ("Steven Geller", "Finance");
 const mgr1 = new Manager("Aitana Andrade", "Technology", 8);
 const mgr2 = new Manager("Carlos Perez", "Operations", 5);
+
+//Step 5: Company class
+class Company {
+    constructor () {
+        this.employees =[];
+        }
+        addEmployee (employee) {
+            this.employee.push (employee);
+            }
+        listEmployees () {
+            this.employees.forEach (employee => {
+                console.log(employee.describe());
+            });
+        }
+}
