@@ -30,14 +30,14 @@ const mgr2 = new Manager("Carlos Perez", "Operations", 5);
 
 //Step 5: Company class
 class Company {
-    constructor () {
-        this.employees =[];
+    constructor() {
+        this.employees = [];
         }
         addEmployee(employee) {
-            this.employees.push (employee);
+            this.employees.push(employee);
             }
-        listEmployees () {
-            this.employees.forEach (employee => {
+        listEmployees() {
+            this.employees.forEach(employee => {
                 console.log(employee.describe());
             });
         }
@@ -45,9 +45,9 @@ class Company {
 
 //Step 6: Instantiate Company and add employees
 const company = new Company();
-company.addEmployee (emp1);
-company.addEmployee (emp2);
-company.addEmployee (mgr1);
-company.addEmployee (mgr2);
+company.addEmployee(emp1);
+company.addEmployee(emp2);
+company.addEmployee(mgr1);
+company.addEmployee(mgr2);
 
-company.listEmployees ();
+company.listEmployees();
